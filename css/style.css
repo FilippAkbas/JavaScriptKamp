@@ -1,0 +1,30 @@
+:root {
+	--YellowColor: #ffe300;
+}
+
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text:400,400i&display=swap&subset=latin-ext');
+
+body {
+	background-color: #000;
+	color: var(--YellowColor);
+	font-family: 'DM Serif Text', serif;
+	font-weight: 400;
+}
+
+
+li {
+	border: 1px solid var(--YellowColor);
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 15px;
+	width: 100%;
+	max-width: 300px;
+	height: 250px;
+	float: left;
+	margin-right: 15px;
+	list-style: none;
+}
+
+.title {
+	text-align: center;
+}
